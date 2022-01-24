@@ -1,0 +1,189 @@
+h1 {
+  font-family: "Stick No Bills", sans-serif;
+  text-align: center;
+  font-size: 4rem;
+}
+
+h4 {
+  font: 1.2em;
+  display: inline;
+  padding: 0%;
+}
+
+p {
+  margin: 0%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  font-family: "Open Sans", sans-serif;
+}
+
+textarea {
+  width: 100%;
+  font-family: "Nanum Gothic Coding", monospace;
+  background-color: #1d1e22;
+  color: yellow;
+}
+
+/* navbar */
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 20%;
+  margin: 0%;
+  padding: 5px;
+}
+
+/* Icons */
+.fas {
+  font-size: 2rem;
+}
+
+/* view button */
+.view {
+  background-color: transparent;
+  border: transparent;
+}
+
+/* theme button */
+.circle {
+  background-color: transparent;
+  border: transparent;
+}
+/* run button */
+.btn {
+  width: 10rem;
+  height: 100%;
+  background: #47cf73;
+  color: black;
+  text-align: center;
+  cursor: pointer;
+}
+
+.btn:hover,
+.btn:focus {
+  background: #349753;
+  color: #fff;
+}
+layout {
+  width: 100%;
+}
+
+/* names of the container */
+.alignleft {
+  float: left;
+}
+.alignright {
+  float: right;
+}
+
+/* Container-1 */
+.layout-1 {
+  width: 100%;
+}
+.main-container-1 {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: center;
+}
+
+/* Container-2 */
+.layout-2 {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: stretch;
+  justify-content: center;
+}
+
+.main-container-2 {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+}
+
+/* container-3 */
+
+.layout-3 {
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: center;
+}
+
+.main-container-3 {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+}
+
+.output {
+  height: 100%;
+  width: 100%;
+}
+
+#output-box {
+  border: 1px solid #333333;
+  width: 100%;
+  height: 100vh;
+  overflow: scroll;
+}
+/* ...flexible sides... */
+.gutter {
+  background-color: #eee;
+  background-repeat: no-repeat;
+  background-position: 50%;
+}
+
+.gutter.gutter-horizontal {
+  background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAeCAYAAADkftS9AAAAIklEQVQoU2M4c+bMfxAGAgYYmwGrIIiDjrELjpo5aiZeMwF+yNnOs5KSvgAAAABJRU5ErkJggg==");
+  cursor: col-resize;
+}
+
+/* theme */
+.light-body {
+  background-color: whitesmoke;
+  color: #1d1e22;
+}
+.light-textbox {
+  background-color: white;
+  color: #47cf73;
+}
+.light-nav {
+  background-color: white;
+}
+
+.dark-body {
+  background-color: black;
+  color: #eee;
+}
+
+.dark-textbox {
+  background-color: #1d1e22;
+  color: yellow;
+}
+
+.dark-nav {
+  background-color: #1d1e22;
+}
+
+.contrast-body {
+  background-color: #1a1d24;
+  color: wheat;
+}
+
+.contrast-textbox {
+  background-color: #2a2d3e;
+  color: red;
+}
+
+.contrast-nav {
+  background-color: #2a2d3e;
+}
